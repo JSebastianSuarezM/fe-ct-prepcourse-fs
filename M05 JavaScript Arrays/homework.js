@@ -211,8 +211,7 @@ function breakStatement(num) {
       if(cont === i) break;
       arrCont.push(cont);
    }
-      if (i < 10) 
-      return 'Se interrumpió la ejecución';
+      if (i < 10) return 'Se interrumpió la ejecución';
       return arrCont;
     
 }
